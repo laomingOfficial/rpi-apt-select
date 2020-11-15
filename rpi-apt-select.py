@@ -264,7 +264,7 @@ def main():
 
     print("Finish locate RASPBERRY PI mirror.")
 
-    print("Please choose RASPBERRY PI mirror.")
+    print("Please choose RASPBIAN mirror.")
     key = _choose_mirror(mirrorRanked_Raspbian, _topCount)
     new_mirror = mirrorRanked_Raspbian[key]
     print("Selecting mirror %(mirror)s ..." % {'mirror': new_mirror.url})
